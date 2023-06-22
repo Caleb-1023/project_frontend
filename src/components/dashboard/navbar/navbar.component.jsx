@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -6,7 +6,7 @@ const Navbar = () => {
         <img src="/favicon_io/android-chrome-192x192.png" alt="" className="w-20" />
         <ul className="flex items-center justify-around space-x-10">
           <li className="font-bold">Dr. John Doe</li>
-          <li><Link to={'/'} className="text-red-800 border-[1px] rounded p-2 border-red-800">Logout</Link></li>
+          {/* <li><Link to={'/'} className="text-red-800 border-[1px] rounded p-2 border-red-800">Logout</Link></li> */}
         </ul>
     </div>
   )
